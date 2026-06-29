@@ -1,12 +1,3 @@
-"""
-Streamlit UI for the Wine Quality classifier hosted on SageMaker.
-
-Reads endpoint name and region from environment variables.
-boto3 picks up AWS credentials from:
-  - the EC2 instance profile (when running on EC2 with LabInstanceProfile), OR
-  - ~/.aws/credentials (when running locally)
-"""
-
 import json
 import os
 import pandas as pd
